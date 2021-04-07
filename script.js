@@ -1,6 +1,7 @@
 var character = document.getElementById("character");
 var block = document.getElementById("block");
 var counter=0;
+document.addEventListener("click",jump);
 function jump(){
     if(character.classList == "animate"){return}
     character.classList.add("animate");
